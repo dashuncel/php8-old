@@ -1,0 +1,143 @@
+/*-------menu--------------*/
+.menu {
+  list-style: none;
+  display: flex; 
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+  background:   #EEE;
+  width: 100%;
+}
+
+.menu a {
+  border: 1px outset #0066A2; 
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding: 20px;
+  margin: 5px 15px 5px 15px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+
+.menu a:before {
+  content: " ";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #F58262;
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+
+input[type="submit"] {
+  background: #0066A2;
+  color: white;
+  border-style: outset;
+  border-color: #0066A2; 
+  height: 50px;
+  width: 200px;
+  font: bold 15px arial, sans-serif;
+  text-shadow:none;
+  border-radius: 10px;
+}
+
+/*-------list.php----------*/
+li a {
+  text-decoration: none;
+  display: block;
+  color: #6f6f6f;
+  background: #EEE;
+  -moz-box-shadow: 0 1px 0 white inset, 0 -1px 0 #d5d5d5 inset;
+  -webkit-box-shadow: 0 1px 0 white inset, 0 -1px 0 #d5d5d5 inset;
+  box-shadow: 0 1px 0 white inset, 0 -1px 0 #d5d5d5 inset;
+  text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  margin: 2px;
+  width: 95%;
+}
+
+li a:hover {
+  color: #8470FF;
+  background: #f6f6f6;
+}
+
+.filelist {
+  list-style-type : none;
+  margin: 4px;
+  padding: 5px;
+}
+
+/*-------admin.php----------*/
+.farea {
+  display: block;
+  border: 1px outset gray; 
+  width: 95%;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+textarea {
+  padding: 10px;
+  margin: 20px;
+  width: 90%;
+}
+
+/*-------test.php----------*/
+fieldset { 
+  border: 2px #0066A2 solid;
+  border-radius: 10px;
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  border: 2px #0066A2 solid;
+  color: #0066A2 
+  font-size: 50px;
+  font: bold 110% serif;
+  text-align:center;
+  border-radius: 10px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: top;
+  margin: 2px;
+  padding: 2px;
+  width: 17px;
+  height: 17px;
+}
+
+.answers {
+  list-style-type : none;
+  cursor: pointer;
+}
+
+.question {
+  color:  #00008B;
+  font: italic bold 15px sans-serif;
+}
+
+.error {
+  color: #FF0000;
+}
+
+form {
+  margin : 15px;
+}
+
+output {
+  border: none;
+}
+
+.login {
+  display: inline-block;
+}
